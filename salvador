@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pontos Turísticos de Salvador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pontos Turísticos de Salvador</h1>
+    </header>
+
+    <nav>
+        <a href="#historia">História</a>
+        <a href="#praias">Praias</a>
+        <a href="#cultura">Cultura</a>
+    </nav>
+
+    <section id="historia">
+        <h2>História</h2>
+        <p>Salvador, capital do estado da Bahia, é conhecida por sua rica história colonial, marcada pela presença
+            portuguesa e africana. O Pelourinho, seu centro histórico, é Patrimônio Mundial da UNESCO e abriga
+            construções coloridas e igrejas barrocas como a Catedral Basilica.</p>
+    </section>
+
+    <section id="praias">
+        <h2>Praias</h2>
+        <p>Salvador possui uma costa litorânea deslumbrante, com praias famosas como Porto da Barra, Farol da Barra,
+            Praia do Flamengo e Itapuã, que atraem tanto turistas quanto moradores locais em busca de sol, mar e
+            diversão.</p>
+    </section>
+
+    <section id="cultura">
+        <h2>Cultura</h2>
+        <p>A cultura em Salvador é vibrante e diversificada, refletida em suas festas populares, como o Carnaval,
+            considerado um dos maiores e mais animados do mundo, e as manifestações culturais afro-brasileiras,
+            presentes na música, dança e culinária.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pontos Turísticos de Salvador</p>
+    </footer>
+
+</body>
+
+</html>
